@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Noto Sans", "Lato", "Open Sans", "Montserrat", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background: #fff;
 }
 
@@ -9,26 +9,20 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-}
-
-.header-logo:active {
-  color: #404bbf;
 }
 
 .header-logo .header-logo-studio {
   color: #2e2f42;
 }
 
+.header-logo:hover,
+.header-logo:focus,
 .header-logo .header-logo-studio:hover,
 .header-logo .header-logo-studio:focus {
-  color: #4d5ae5;
-}
-
-.header-logo .header-logo-studio:active {
   color: #404bbf;
 }
 
@@ -40,40 +34,32 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
 }
 
 .header-menu-item-link:hover,
 .header-menu-item-link:focus {
-  color: #4d5ae5;
-}
-
-.header-menu-item-link:active {
   color: #404bbf;
 }
 
 .header-address-list {
   list-style-type: none;
+  font-style: normal;
 }
 
 .header-address-item-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.02;
-  color: #434455;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
+  color: #434455;
 }
 
 .header-address-item-link:hover,
 .header-address-item-link:focus {
-  color: #4d5ae5;
-}
-
-.header-address-item-link:active {
   color: #404bbf;
 }
 
@@ -84,27 +70,24 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 107%;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .hero-button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #4d5ae5;
-}
-
-.hero-button:active {
   color: #404bbf;
 }
 
@@ -116,13 +99,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .studio-item-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -132,8 +115,10 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
@@ -148,22 +133,24 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-item-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-item {
@@ -174,13 +161,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -191,32 +178,26 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-}
-
-.footer-logo:active {
-  color: #404bbf;
 }
 
 .footer-logo .footer-logo-studio {
   color: #f4f4fd;
 }
 
+.footer-logo:hover,
+.footer-logo:focus,
 .footer-logo .footer-logo-studio:hover,
 .footer-logo .footer-logo-studio:focus {
-  color: #4d5ae5;
-}
-
-.footer-logo .footer-logo-studio:active {
   color: #404bbf;
 }
 
 .footer-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
-  color: #f4f4fd;  
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
