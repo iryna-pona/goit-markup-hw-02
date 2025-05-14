@@ -44,9 +44,12 @@ body {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-address-list {
   list-style-type: none;
-  font-style: normal;
 }
 
 .header-address-item-link {
@@ -88,7 +91,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .studio-list {
